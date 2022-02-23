@@ -1,0 +1,31 @@
+.main-container{
+    margin:50px auto;
+    border: 5px solid rgb(116, 184, 116);
+    max-width: 300px;
+    border-radius: 5px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    border-bottom: 1px solid rgb(116, 184, 116);
+}
+input[type="checkbox"]{
+    margin: 20px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #757575;
+    border-radius: 2px;
+}
+input[type="checkbox"]:checked{
+    background: #ff5d02;
+    border-color: #ff5d02;
+}
+p {
+    margin: 0;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(220, 235, 207);
+}
